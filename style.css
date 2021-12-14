@@ -1,0 +1,146 @@
+
+
+   
+
+
+.navbar{
+    background-color:rgb(175, 100, 2) ;
+opacity: 90%;
+    width: 100%; position: absolute; top: 0; left:0;right:0;
+height: 70px;
+font-family:Verdana;
+line-height:35px;
+font-size: 20px;
+position:fixed;
+overflow:visible;
+z-index: 1;
+
+}
+nav ul{
+    
+    margin-left: 180px;
+  
+    
+  
+}
+nav ul li{
+    list-style-type:none ;
+    display:inline-block;
+    
+    transition: 0.4s all;
+    
+    
+    
+}
+nav ul li:hover{
+    transform: scale(1.2);
+    
+    z-index: 2;
+   
+    
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin:200px;
+  
+}
+.container1{
+    background-image:url(./images/marsback.jpg); 
+    background-repeat:no-repeat;
+    background-size: 100% 500px;right:0;
+    
+    color:white;
+    text-align:center;
+  height: 500px;
+    width: 100%; position: absolute;top:0; left:0;right:0;
+  
+    
+}
+.container1 p{
+margin-top: 250px;
+
+
+}
+.container2{
+   
+    background-color: khaki;
+    background-size: 500px 500px;
+    
+    height:625px;
+    width: 100%; position:absolute; left:0;right:0;
+    margin-top:480px;
+    
+    display:flex;
+    
+
+}
+.box1 {
+flex:1;
+
+
+margin-top: 50px;
+margin-left: 100px;
+
+}
+.box2{
+   
+    font-weight: bold;
+    font-size: 18px;
+    margin-right:180px;
+    margin-top: 40px;
+    height:500px;
+    width:600px;
+    }
+.container3{
+    background-color:sandybrown;
+    height:400px;
+    width: 100%; position:absolute; left:0;right:0;
+    margin-top:1105px;
+  
+    
+}
+.content1 {
+    margin-left: 100px;
+  font-size:larger;   
+  line-height:18px;
+   
+
+}
+
+.container4{
+    background-color:khaki;
+    height:400px;
+    width: 100%; position:absolute; left:0;right:0;
+  margin-top:1500px;
+    text-align:center;
+    display:flex; 
+}
+.box3 img{
+    margin-top:50px;
+    margin-left:50px;
+
+}
+.content2{
+    
+    font-size: 18px;
+    flex:2;
+    
+    margin-top:50px;
+    margin-left:50px;
+    margin-right: 50px;
+    height:300px;
+    width:700px;
+}
+.content2 ul li{
+    text-align:left;
+
+}
+/*.footer{
+   
+   margin-top:2000px;
+    height: 300px;
+    width:100%; position:absolute;left:0;right:0;
+}*/
